@@ -30,6 +30,8 @@ function Home() {
           rating={5}
           image="https://images-na.ssl-images-amazon.com/images/I/31PTviHMeUL._AC_US160_.jpg"
         />
+      </div>
+      <div className="home__row">
         <Product
           id="1234"
           title="2020 [Upgraded] 1080P Webcam with Microphone & Privacy Cover - NexiGo 110-degree Wide Angle Widescreen USB HD Camera, Plug and Play, Laptop "
@@ -37,8 +39,6 @@ function Home() {
           rating={4}
           image="https://m.media-amazon.com/images/I/51pqgmdrPwL._AC_UL320_.jpg"
         />
-      </div>
-      <div className="home__row">
         <Product
           id="1235"
           title="Wrist watch for them boys, aluminium handle Samsung Gear S3 Frontier Smartwatch (Bluetooth), SM-R760NDAAXAR"
@@ -53,6 +53,8 @@ function Home() {
           rating={4}
           image="https://m.media-amazon.com/images/I/71Ox7ORXCsL._AC_UL320_.jpg"
         />
+      </div>
+      <div className="home__row">
         <Product
           id="1237"
           title="iBUYPOWER Gaming PC Computer Desktop Element 9260 (Intel Core i7-9700F 3.0Ghz, NVIDIA GeForce GTX 1660 Ti 6GB, 16GB DDR4, 240GB SSD, "
@@ -60,10 +62,7 @@ function Home() {
           rating={4}
           image="https://m.media-amazon.com/images/I/819XYUimTuL._AC_UL320_.jpg"
         />
-      </div>
-      <div className="home__row">
         <Product
-          key="6"
           id="1238"
           title="Zevro Zero Gravity Magnetic Spice Rack with 12 Canisters, setting the pace for the newbies to pick from. Designed to preserve freshness ,Easy, one handed operation "
           price={67.45}

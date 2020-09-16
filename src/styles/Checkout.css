@@ -1,18 +1,25 @@
 .checkout {
   display: flex;
-  padding: 20px;
+  padding: 2rem;
   /* background-color: white; */
   height: max-content;
 }
 .checkout__title {
-  margin-right: 10px;
-  padding: 10px;
-  border-bottom: 1px solid lightgray;
+  margin-right: 1rem;
+  padding: 1rem;
+  border-bottom: 0.1rem solid lightgray;
 }
 .checkout__ad {
   width: 100%;
-  margin-bottom: 10px;
+  margin-bottom: 1rem;
 }
 .checkout__left {
   flex: 1;
+}
+
+@media screen and (max-width: 450px) {
+  .checkout__left {
+    flex: unset;
+    width: 85%;
+  }
 }
